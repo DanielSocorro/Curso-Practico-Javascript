@@ -82,3 +82,24 @@ console.groupEnd();
   /*       console.log("el area del circulo es: " + areaCirculo + "cm^2 "); */
 
     console.groupEnd;
+
+    // Aqui interactuamos con el html
+
+    function calcularPerimetroCuadrado(){
+        const input = document.getElementById("InputCuadrado");
+        const value = input.value;
+
+
+        const perimetro = perimetroCuadrado(value);
+        alert(perimetro);
+    }
+
+
+    function calcularAreaCuadrada(){
+        const input = document.getElementById("InputCuadrado");
+        const value = input.value;
+
+
+        const area = areaCuadrada(value);
+        alert(area);
+    }
